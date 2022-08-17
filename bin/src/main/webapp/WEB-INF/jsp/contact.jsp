@@ -9,8 +9,13 @@
 <title>WebHut </title>
 </head>
 
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+</style>
+
 <body>
-    <h1 align="center">My Contact Info</h1>
+    <h1> My Contact Info </h1>
     <br/>
     <table align="center" border="1" cellpadding="10">
         <tr>
@@ -25,7 +30,10 @@
         </tr>    
         </c:forEach>
     </table>
-    <h2 align ="center"> <a href="index.html">Home </a> </h2>
+    <p>
+        <a href="index.html">Home </a> 
+    </p>
+    
 </body>
 
 </html>

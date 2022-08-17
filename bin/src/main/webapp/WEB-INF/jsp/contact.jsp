@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>WebHut </title>
 </head>
+
 <body>
     <h1 align="center">My Contact Info</h1>
     <br/>
@@ -25,6 +26,6 @@
         </c:forEach>
     </table>
     <h2 align ="center"> <a href="index.html">Home </a> </h2>
-    
 </body>
+
 </html>

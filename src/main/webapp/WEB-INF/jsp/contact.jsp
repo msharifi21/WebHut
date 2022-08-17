@@ -8,8 +8,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Web Application </title>
 </head>
+
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    body{background-color: rgb(238, 242, 245);}
+</style>
+
 <body>
-    <h1 align="center">My Contact Info</h1>
+    <h1> Contact Info </h1>
     <br/>
     <table align="center" border="1" cellpadding="10">
         <tr>
@@ -24,7 +31,10 @@
         </tr>    
         </c:forEach>
     </table>
-    <h2 align ="center"> <a href="index.html">Home </a> </h2>
-    
+    <br/>
+    <p>
+        <a href="index.html">Home </a>
+    </p>
+       
 </body>
 </html>

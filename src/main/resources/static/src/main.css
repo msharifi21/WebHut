@@ -16,6 +16,13 @@ body {
     background-size: cover;
 }
 
+.top-container{
+    margin-top: 0%;
+    width: 100;
+    text-align: center;
+    position: fixed;
+}
+
 .container {
     width: 400px;
     max-width: 400px;

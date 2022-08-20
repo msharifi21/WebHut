@@ -16,11 +16,16 @@ body {
     background-size: cover;
 }
 
-.top-container{
-    margin-top: 0%;
-    width: 100;
+.top-container{ 
     text-align: center;
+    overflow: hidden;
+    top: 40px;
+    width: 70%;
     position: fixed;
+    z-index: 5;
+    background-color: white;
+    color: blue;
+    font-weight: bolder;
 }
 
 .container {

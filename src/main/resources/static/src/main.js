@@ -19,11 +19,18 @@ function clearInputError(inputElement) {
 document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
     const createAccountForm = document.querySelector("#createAccount");
+    const resetAccountForm = document.querySelector("#resetAccount");
 
     document.querySelector("#linkCreateAccount").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
         createAccountForm.classList.remove("form--hidden");
+    });
+
+    document.querySelector("#linkResetAccount").addEventListener("click", e => {
+        e.preventDefault();
+        loginForm.classList.add("form--hidden");
+        resetAccountForm.classList.remove("form--hidden");
     });
 
     document.querySelector("#linkLogin").addEventListener("click", e => {

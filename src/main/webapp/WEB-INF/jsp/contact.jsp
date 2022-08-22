@@ -12,7 +12,7 @@
 <style>
     h1 {text-align: center;}
     p {text-align: center;}
-    body{background-color: rgb(238, 242, 245);}
+    body{background-color: rgb(214, 224, 231);}
 </style>
 
 <body>
